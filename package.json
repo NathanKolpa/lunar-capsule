@@ -1,17 +1,19 @@
 {
-  "name": "zodiac",
-  "version": "1.0.0",
-  "description": "A gemini server libary",
+  "name": "space-capsule",
+  "version": "1.0.1",
+  "description": "A gemini server framework",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/zodiac",
+  "repository": "https://github.com/NathanKolpa/space-capsule",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "gemini",
+    "server",
+    "framework"
+  ],
   "scripts": {
-    "build": "run-p build:*",
-    "build:main": "tsc -p tsconfig.json",
-    "build:module": "tsc -p tsconfig.module.json",
+    "build": "tsc -p tsconfig.json",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
@@ -40,9 +42,6 @@
   },
   "engines": {
     "node": ">=10"
-  },
-  "dependencies": {
-    "@bitauth/libauth": "^1.17.1"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
