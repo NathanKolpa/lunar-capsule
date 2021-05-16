@@ -2,6 +2,8 @@
 
 A simple, lightweight and fast server framework for the [Gemini Protocol](https://gemini.circumlunar.space/), written in TypeScript.
 
+! This project is still in early development. Use with caution !
+
 ### Why use this library?
 
  - An easy and intuitive to use api.
