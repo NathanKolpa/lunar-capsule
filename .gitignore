@@ -1,9 +1,5 @@
-.idea/*
-.nyc_output
-build
-node_modules
-test
-src/**.js
-coverage
-*.log
-yarn.lock
+.idea/
+.vscode/
+build/
+node_modules/
+*.pem
