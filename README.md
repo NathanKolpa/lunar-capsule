@@ -1,23 +1,19 @@
 # Lunar Capsule
-
 A simple, lightweight and fast server framework for the [Gemini Protocol](https://gemini.circumlunar.space/) written in TypeScript.
 
 ! This project is still in early development. Use with caution !
 
 ### Why use this library?
-
  - An easy and intuitive to use api.
  - No dependencies.
  - Strong typed.
  
 ### Features
- 
  - Response chunking
  - Asynchronous
  - Virtual hosting
 
 ## Installation
-
 Simply install the `lunar-capsule` package with  *npm* or *yarn*.
 
 ```
@@ -25,7 +21,6 @@ npm install lunar-capsule
 ```
 
 ## Usage
-
 ```typescript
 import { createApp } from 'lunar-capsule';
 
@@ -44,7 +39,6 @@ app.listen({
 ```
 
 ## Contributing
-
 ### TODO
  - Add middleware support
  - Testing
