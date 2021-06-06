@@ -1,6 +1,6 @@
 # Lunar Capsule
 
-A simple, lightweight and fast server framework for the [Gemini Protocol](https://gemini.circumlunar.space/), written in TypeScript.
+A simple, lightweight and fast server framework for the [Gemini Protocol](https://gemini.circumlunar.space/) written in TypeScript.
 
 ! This project is still in early development. Use with caution !
 
