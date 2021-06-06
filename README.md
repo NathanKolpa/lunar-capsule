@@ -41,7 +41,6 @@ app.listen({
   cert: fs.readFileSync('CERT FILE').toString(),
   key: fs.readFileSync('PRIVATE KEY FILE').toString(),
 });
-
 ```
 
 ## Contributing
